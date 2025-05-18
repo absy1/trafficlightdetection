@@ -4,7 +4,7 @@ from tqdm import tqdm
 from ultralytics import YOLO
 from ultralytics.engine.results import Results
 
-model_path = Path("checkpoints/640-epoch800-best.pt")
+model_path = Path("checkpoints/1280-300epoch-best.pt")
 model = YOLO(model_path)
 output_results = {"annotations": []}
 

@@ -7,3 +7,10 @@ names:
   0: red
   1: green
   2: yellow
+
+# augment: 
+#   - hsv_h: 0.015  # 色调增强
+#   - hsv_s: 0.7    # 饱和度增强
+#   - hsv_v: 0.4    # 明度增强
+#   - translate: 0.1 # 平移
+#   - mosaic: 1.0    # 马赛克增强
